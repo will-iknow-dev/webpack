@@ -17,7 +17,7 @@ Project Requirements:
 - Node.js
 - NPM.js 
 
->>>NPM Node Package Manager is a command line interface program to manage node.js libraries.
+> NPM Node Package Manager is a command line interface program to manage node.js libraries.
 
 - I use Sublime Text 3 text editor but feel free to use whatever your comfortable with.
 
@@ -34,7 +34,6 @@ Create these files:
 	##add entry.js
 	inside entry.js file write the following code:
 	document.write("It works.");
-
 	##add index.html
 	<html>
 	 <head>
