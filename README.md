@@ -17,7 +17,7 @@ Project Requirements:
 - Node.js
 - NPM.js 
 
-> NPM Node Package Manager is a command line interface program to manage node.js libraries.
+> NPM stands for Node Package Manager which is a command line interface program to manage node.js libraries.
 
 - I use Sublime Text 3 text editor but feel free to use whatever your comfortable with.
 
@@ -31,19 +31,26 @@ This makes the webpack pack command available.
 ##Setup the compilation
 Open your document editor and create an empty directory.
 Create these files:
-	##add entry.js
+	
+add entry.js
 	inside entry.js file write the following code:
-	document.write("It works.");
-	##add index.html
+	
+    document.write("It works.");
+	
+add index.html
+
 	<html>
-	 <head>
-	  <meta charset="utf-8">
-	 </head>
-	 <body>
-	  <script type="text/javascript" src="bundle.js" charset="utf-8"></scrip	   t>
-	 </body>
+	   <head>
+	       <meta charset="utf-8">
+	   </head>
+	   <body>
+	       <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+	   </body>
 	</html>
+
 Then run the following command in the command prompt:
-	#$ webpack ./entry.js bundle.js
+	
+    $ webpack ./entry.js bundle.js
+
 What this will do is compile your code and create a bundle file.
 
