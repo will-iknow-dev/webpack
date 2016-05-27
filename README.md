@@ -16,12 +16,14 @@ Because webpack has the ability to build and bundle CSS, preprocessed CSS, compi
 Project Requirements:
 - Node.js
 - NPM.js 
-	#NPM Node Package Manager is a command line interface program to manage node.js libraries.
+-	NPM Node Package Manager is a command line interface program to manage node.js libraries.
 - I use Sublime Text 3 text editor but feel free to use whatever your comfortable with.
 
 ##Installing webpack
 Open a command prompt and run:
-	#$ npm install webpack -g
+	
+-	$ npm install webpack -g
+
 This makes the webpack pack command available.
 
 ##Setup the compilation
@@ -43,3 +45,4 @@ Create these files:
 Then run the following command in the command prompt:
 	#$ webpack ./entry.js bundle.js
 What this will do is compile your code and create a bundle file.
+
