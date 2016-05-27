@@ -16,7 +16,7 @@ Because webpack has the ability to build and bundle CSS, preprocessed CSS, compi
 Project Requirements:
 - Node.js
 - NPM.js 
-		NPM Node Package Manager is a command line interface program to manage node.js libraries.
+>>NPM Node Package Manager is a command line interface program to manage node.js libraries.
 - I use Sublime Text 3 text editor but feel free to use whatever your comfortable with.
 
 ##Installing webpack
