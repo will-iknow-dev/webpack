@@ -30,13 +30,15 @@ This makes the webpack pack command available.
 
 ##Setup the compilation
 Open your document editor and create an empty directory.
+
 Create these files:
 	
 add entry.js
-	inside entry.js file write the following code:
+
+-	inside entry.js file write the following code:
 	
     document.write("It works.");
-	
+
 add index.html
 
 	<html>
